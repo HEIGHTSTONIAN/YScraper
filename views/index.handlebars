@@ -1,0 +1,9 @@
+<h2>Ycombinator articles!</h2>
+<hr/>
+{{#each data}}
+<h3 data-id='{{id}}'>{{headline}}</h3>
+{{link}}<br/>
+{{summary}}<br/>
+<button data-id='{{_id}}' id='savearticle'>Save Article</button><br/>
+<hr/>
+{{/each}}
